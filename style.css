@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+}
+
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'header header header header'
+                         'nav    main   main   main';
+    /* padding: 10px; */
+    /* min-height: 100vh; */
+}
+
+header {
+    /* grid-area: 1 / 1 / span 1 / span 3; */
+    grid-area: header;
+    background-color: #272932;
+    padding: 10px;
+    color: white;
+}
+
+nav {
+    /* grid-area: 2 / 1 / span 3 / span 1; */
+    grid-area: nav;
+    background-color: #ded9e2;
+    /* margin: 10px; */
+    /* margin-left: 10px; */
+    min-height: 90vh;
+}
+
+nav > ul {
+    padding: 0.5em;
+}
+
+nav > ul > li {
+    cursor: pointer;
+    list-style: none;
+    padding: 0.5em;
+}
+
+.nav-div {
+    display: flex;
+    vertical-align: center;
+    /* box-sizing: border-box; */
+}
+
+.nav-div > i {
+    width: 25px;
+    padding-right: 0.75em;
+}
+
+main {
+    grid-area: main;
+    padding-left: 1.5em;
+    padding-right: 10px;
+    background-color: #f7f4ea;
+}
+
+ul li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:not(:first-child):hover {background-color: #f5f5f5;}
+
+/* Setting table widths */
+#TicketID {
+    width: 12%;
+}
+
+#Title {
+    width: 39%;
+}
+
+#Type {
+    width: 8.5%;
+}
+
+#Status {
+    width: 12%;
+}
+
+#AssignedTo {
+    width: 12%;
+}
+
+#Created {
+    width: 12%;
+}
+
+.error {color: #FF0000;}
+
+#header i {
+    width: 25px;
+}
