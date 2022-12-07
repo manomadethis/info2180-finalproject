@@ -1,6 +1,6 @@
 <?php
 	if(isset($_SESSION['logined_user'])){
-        header("Location:http://localhost/info2180-project2/dashboard.php" );     
+        header("Location:http://localhost/info2180-finalproject/dashboard.php" );     
     }
 ?>
 
