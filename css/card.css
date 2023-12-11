@@ -1,0 +1,16 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    padding: 16px;
+    padding-bottom: 70px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
