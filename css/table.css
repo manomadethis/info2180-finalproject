@@ -1,0 +1,28 @@
+.table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 10px);
+    margin-left: 10px;
+}
+
+.table th {
+    font-weight: bold;
+    text-align: left;
+    background-color: rgb(241, 241, 241);
+    border: none;
+}
+
+.table td, .table th {
+    padding: 10px;
+    border: none;
+    padding-right: 125px;
+}
+
+.table td:first-child {
+    font-weight: bold;
+}
+
+.table tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}

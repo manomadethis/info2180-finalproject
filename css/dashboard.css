@@ -1,0 +1,56 @@
+.filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.filter > *:not(:first-child) {
+    margin-right: 10px;
+    padding-right: 20px;
+}
+
+.filter a {
+    text-decoration: none;
+    color: gray;
+}
+
+.filter > *:last-child {
+    margin-right: 0;
+}
+
+#dashboard-filter a.selected {
+    color: #4F46E5;
+    border-bottom: 3px solid #4F46E5;
+    padding-bottom: 7px;
+}
+
+.type-data {
+    display: inline-block;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+}
+
+.sales-lead {
+    background-color: #FCD34D;
+}
+
+.support {
+    background-color: #4F46E5;
+    color: white;
+}
+
+.email-data, .company-data {
+    color: gray;
+}
+
+.view-data a {
+    text-decoration: none;
+    color: #4F46E5;
+    font-weight: bold;
+}
+
+.view-data a:hover {
+    text-decoration: underline;
+}
